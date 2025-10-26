@@ -1,0 +1,24 @@
+{
+  "winner_model": "XGBoost",
+  "best_cv_r2": 0.9955631732940674,
+  "best_params": {
+    "model__estimator__colsample_bytree": 1.0,
+    "model__estimator__learning_rate": 0.1,
+    "model__estimator__max_depth": 6,
+    "model__estimator__min_child_weight": 1,
+    "model__estimator__reg_lambda": 5.0,
+    "model__estimator__subsample": 0.9
+  },
+  "features": [
+    "Run time (min)",
+    "Temperature (\u00b0C)",
+    "RH (%)"
+  ],
+  "targets": [
+    "Water uptake (L/kg)",
+    "Daily water production rate (L/kg.day)"
+  ],
+  "random_state": 42,
+  "cv_folds": 5,
+  "test_size": 0.2
+}
