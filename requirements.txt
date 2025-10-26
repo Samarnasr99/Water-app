@@ -5,5 +5,4 @@ scipy==1.14.1         # <- key change (1.14 has cp313 wheels)
 scikit-learn==1.5.2
 joblib==1.4.2
 openpyxl==3.1.5
-# Only include xgboost if your saved model really needs it at inference:
-# xgboost==2.1.2
+xgboost==2.1.2
